@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKER_HUB_REPO = 'i211221/mlopstask3'
         DOCKER_HUB_CREDENTIALS_ID = '1221'
-
+        //Image Tag
         IMAGE_TAG = "${env.BUILD_ID}"
     }
 
